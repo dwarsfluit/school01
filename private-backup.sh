@@ -10,4 +10,8 @@ rsync -az /home/lverhoeven/school /home/lverhoeven/backup/
 
 rsync -az /home/lverhoeven/Documents /home/lverhoeven/backup/
 
+#/etc/
+
+rsync -az /etc/ /home/lverhoeven/backup/
+
 echo "end of the backup"
